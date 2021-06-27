@@ -13,8 +13,8 @@ O primeiro problema é que alguns atributos dessa classe podem ser privado (sem 
 
 
 ## Solução
-Criamos uma [interface](https://github.com/JohnGomez/Design-Patterns/blob/master/Criacionais/prototype/src/com/patterns/AbstractModel.java) (poderia ser uma classe abstrata) com o método ```clone()``` e a implementamos na [classe](https://github.com/JohnGomez/Design-Patterns/blob/master/Criacionais/prototype/src/com/patterns/People.java) que poderá ser clonada.
-A implementação do método clone é bem simples; Invoca um contrutor da concreta que recebe uma instância da prorpia classe. 
+Criamos uma [interface](https://github.com/JohnGomez/Design-Patterns/blob/master/Criacionais/prototype/src/com/patterns/AbstractModel.java) (poderia ser uma classe abstrata) com o método ```clone()``` e a implementamos na [classe](https://github.com/JohnGomez/Design-Patterns/blob/master/Criacionais/prototype/src/com/patterns/People.java) dos objetos que podem ser clonados.
+A implementação do método ```clone()``` é bem simples; Invoca um contrutor privado da classe concreta que recebe uma instância da propria classe. 
 
 
 
