@@ -7,7 +7,7 @@ Esse repositório contém um conjunto de projetos documentados em português com
 - Abstract Factory
 - Builder
 - Factory Method  
-- Prototype
+- [Prototype](https://github.com/JohnGomez/Design-Patterns/tree/master/Criacionais/prototype)
 - Singleton
 
 #### Comportamento
