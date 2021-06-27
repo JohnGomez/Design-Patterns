@@ -1,4 +1,4 @@
-#Design Patterns em Java
+# Design Patterns em Java
 Esse repositório contém um conjunto de projetos documentados em português com exemplos de implementação de design patterns em java.
 
 ### Categorias:
